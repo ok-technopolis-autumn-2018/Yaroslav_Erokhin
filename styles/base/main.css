@@ -1,0 +1,13 @@
+body {
+    background: #f5f5f5;
+
+    }
+
+.main-layout {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 16px 16px;
+    /*background: #f00;*/
+    }
+
+

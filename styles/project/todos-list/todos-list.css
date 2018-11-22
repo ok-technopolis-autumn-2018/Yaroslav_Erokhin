@@ -1,0 +1,111 @@
+
+        .todos-list_item:after {
+            content: '';
+            clear: both;
+            display: table;
+            }
+
+        .todos-list_item_ready-marker {
+            float: left;
+            margin-right: 16px;
+            margin-left: 16px;
+            }
+
+        .todos-list_item_text-w {
+            overflow: hidden;
+            }
+
+            .todos-list_item_text {
+                width: 100%;
+                font-family:'Tang UltraLight SCOSF', Arial;
+                /*text-decoration: line-through;*/
+                font-size: 30px;
+                border: 0;
+                padding: 0;
+                outline: 0;
+                }
+
+
+        .todos-list_item_remove {
+            float: right;
+            margin-left: 16px;
+            margin-right: 16px;
+            margin-top: 10px;
+            /*display: none;*/
+            visibility: hidden;
+            width: 22px;
+            height: 22px;
+            border: 0;
+            padding: 0;
+            /*outline: 0;*/
+
+            background: url(../../../images/close.png) no-repeat 0 0;
+        }
+
+        /*Отключено из-за некорректного отображения*/
+/*
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 120dpi),
+(min-resolution: 1.5dppx) {
+    .todos-list_item_remove {
+        background: url(../../../images/close@2x.png) no-repeat 0 0;
+    }
+}
+*/
+
+
+        .todos-list_item_1:hover .todos-list_item_remove{
+                /*display: block;*/
+                visibility: visible;
+                }
+.todos-list_item_1:hover .todos-list_item_text{
+    /*display: block;*/
+    background: whitesmoke;
+}
+.todos-list_item_1:hover{
+    /*display: block;*/
+    background: whitesmoke;
+}
+
+        .todos-list_item_2:hover .todos-list_item_remove{
+                visibility: visible;
+                }
+.todos-list_item_2:hover .todos-list_item_text{
+    /*display: block;*/
+    background: whitesmoke;
+}
+.todos-list_item_2:hover{
+    /*display: block;*/
+    background: whitesmoke;
+}
+
+        .todos-list_item_3:hover .todos-list_item_remove{
+                visibility: visible;
+                }
+.todos-list_item_3:hover .todos-list_item_text{
+    /*display: block;*/
+    background: whitesmoke;
+}
+.todos-list_item_3:hover{
+    /*display: block;*/
+    background: whitesmoke;
+}
+
+        .todos-list_item_4:hover .todos-list_item_remove{
+                visibility: visible;
+                }
+.todos-list_item_4:hover .todos-list_item_text{
+    /*display: block;*/
+    background: whitesmoke;
+}
+.todos-list_item_4:hover{
+    /*display: block;*/
+    background: whitesmoke;
+}
+
+
+.todos-list_item_1, .todos-list_item_2, .todos-list_item_3, .todos-list_item_4{
+    margin-bottom: 6px;
+    box-shadow: 0 1px 0 lightgray;
+}
+
