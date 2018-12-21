@@ -1,0 +1,44 @@
+.todos-toolbar{
+    padding: 10px 10px;
+}
+
+.todos-toolbar_unready-counter{
+    float: left;
+    font-family: 'Skerpa Regular 2.0', Arial;
+    margin-top: 1px;
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+.filters{
+    float: left;
+    font-family: 'Skerpa Regular 2.0', Arial;
+    margin-right: 110px;
+}
+
+.filters-item:nth-child(2), .filters-item:nth-child(3){
+    padding: 0;
+    margin: 0;
+    border: 0;
+    /*outline: 0;*/
+    background: #fff;
+}
+
+.filters-item:first-child{
+    border-radius: 10%;
+    /*outline: 0;*/
+    background: #fff;
+    border: 1px;
+    border-style: solid;
+    border-color: lightgray;
+}
+
+
+.todos-toolbar_clear-completed{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    /*outline: 0;*/
+    background: #fff;
+    font-family: 'Skerpa Regular 2.0', Arial;
+}

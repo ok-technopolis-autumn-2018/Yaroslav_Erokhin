@@ -40,13 +40,12 @@
             background: url(../../../images/completed.png);
             }
 
-/*Отключено из-за некорректного отображения*/
-/*
+
 @media (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 120dpi),
 (min-resolution: 1.5dppx) {
     .custom-checkbox_target:checked ~ .custom-checkbox_visual .custom-checkbox_visual_icon{
-        background: url(../../../images/select-all@2x.png) no-repeat 0 0;
+        background: url(../../../images/completed@2x.png) no-repeat 0 0;
+        background-size: 20px;
     }
 }
-*/

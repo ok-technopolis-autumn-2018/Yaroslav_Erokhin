@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "react",
+    "env",
+    "stage-1"
+  ],
+  "plugins": [
+    "jsx-control-statements",
+    "transform-object-rest-spread"
+  ]
+}
